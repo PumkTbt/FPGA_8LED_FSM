@@ -1,0 +1,65 @@
+EDA Netlist Writer report for Cau5_FBGA
+Mon Jun 21 23:20:46 2021
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; EDA Netlist Writer Summary                                    ;
++---------------------------+-----------------------------------+
+; EDA Netlist Writer Status ; Failed - Mon Jun 21 23:20:46 2021 ;
+; Revision Name             ; Cau5_FBGA                         ;
+; Top-level Entity Name     ; Cau5_FBGA                         ;
+; Family                    ; Cyclone II                        ;
++---------------------------+-----------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit EDA Netlist Writer
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Mon Jun 21 23:20:43 2021
+Info: Command: quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog Cau5_FBGA -c Cau5_FBGA --vector_source="E:/Document Hill/MACHSOHDL/Cau 5/Waveform11.vwf" --testbench_file=./simulation/qsim/Cau5_FBGA.vt
+Error (201009): Bus port "y" specified in vector source file has width of 9, which does not match width 8 of top level port of same name
+Warning (201007): Can't find port "y[8]" in design
+Error (201009): Bus port "y" specified in vector source file has width of 9, which does not match width 8 of top level port of same name
+Warning (201007): Can't find port "y[8]" in design
+Error (201009): Bus port "y" specified in vector source file has width of 9, which does not match width 8 of top level port of same name
+Warning (201007): Can't find port "y[8]" in design
+Info (201000): Generated Verilog Test Bench File ./simulation/qsim/Cau5_FBGA.vt for simulation
+Error: Quartus II 64-Bit EDA Netlist Writer was unsuccessful. 3 errors, 3 warnings
+    Error: Peak virtual memory: 4517 megabytes
+    Error: Processing ended: Mon Jun 21 23:20:46 2021
+    Error: Elapsed time: 00:00:03
+    Error: Total CPU time (on all processors): 00:00:03
+
+
